@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    background:url('./img/background\ img.jpg')  center/cover no-repeat;
+    overflow: hidden; 
+    animation: moveBackground 20s linear infinite; 
+  }
+  @keyframes moveBackground {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+  
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    color: #f4f4f4;
+  }
+  
+  label {
+    margin-right: 10px;
+    display: block;
+    color: #f4f4f4;
+    
+}
+  
+  
+  input {
+    padding: 50px;
+    margin-bottom: 50px; 
+  
+   
+  }
+    
+  
+  
+  button {
+    padding: 20px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 70px; /* Add space between input and button */
+ 
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #output {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color:#ffff;
+  }
+  
+  p {
+    margin: 8px 0;
+    color: #333;
+  }
+  
